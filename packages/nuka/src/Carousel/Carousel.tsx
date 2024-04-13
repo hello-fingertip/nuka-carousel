@@ -146,7 +146,7 @@ export const Carousel = forwardRef<SlideHandle, CarouselProps>(
               onTouchMove={onContainerScroll}
               id="nuka-overflow"
               data-testid="nuka-overflow"
-              style={{ touchAction: swiping ? 'pan-x' : 'none' }}
+              style={{ touchAction: swiping ? 'pan-x' : 'auto' }}
             >
               <div
                 className="nuka-wrapper"
